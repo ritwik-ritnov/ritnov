@@ -17,4 +17,4 @@ def tex(x):
         while a<x:
             print(a,end="")
             a = a+1
-        return a
+    return a
