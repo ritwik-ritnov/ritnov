@@ -24,3 +24,12 @@ def starx(x):
     '''print pattern: for x=5, star= *****'''
     star = x*"*"
     return star
+
+def factorial(x):
+    '''calculate factorial of an integer'''
+    y=1
+    print("factorial =",end=" ")
+    while(x>0):
+        y *= x
+        x = x-1
+    return y
