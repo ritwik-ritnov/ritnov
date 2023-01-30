@@ -33,3 +33,19 @@ def factorial(x):
         y *= x
         x = x-1
     return y
+#recursion
+def fibonacci(x):
+    '''f(n)=f(n-1)+f(n-2)'''
+    if x==0:
+        return 0
+    if x==1:
+        return 1
+    else:
+        return fibonacci(x-1)+fibonacci(x-2)
+ 
+def factorialr(x):
+    '''calculate factorial in recursive mode'''
+    if x==0 or x==1:
+        return 1
+    else:
+        return x*factorialr(x-1)
